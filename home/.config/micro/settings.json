@@ -1,0 +1,11 @@
+{
+	"backupdir": "~/.local/state/micro/backups",
+	"basename": true,
+	"keepautoindent": true,
+	"savecursor": true,
+	"saveundo": true,
+	"softwrap": true,
+	"statusformatl": "| $(filename) ($(line),$(col)) |",
+	"statusformatr": "| $(opt:filetype),$(opt:encoding) |",
+	"tabmovement": true
+}

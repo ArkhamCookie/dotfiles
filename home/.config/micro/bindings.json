@@ -1,0 +1,14 @@
+{
+	"Shift-OldBackspace": "DeleteWordLeft",
+	"Alt-Backspace": "DeleteWordRight",
+	"Alt-d": "DeleteLine",
+	"Tab": "Autocomplete|IndentSelection|IndentLine",
+	"Ctrl-c": "Copy|CopyLine",
+	"Ctrl-g": "JumpLine",
+	"Alt-,": "PreviousTab",
+	"Alt-.": "NextTab|AddTab",
+	"Ctrl-y": "Redo",
+	"CtrlUnderscore": "lua:comment.comment",
+	"Alt-q": "QuitAll",
+	"Alt-x": "Save,Quit"
+}
