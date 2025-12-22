@@ -1,0 +1,21 @@
+# download
+gist download: api /gists/public
+
+# git
+clone: repo clone
+
+# pull requests
+pv: pr view
+co: pr checkout
+
+# search
+s: search repos --json fullName,description,language
+myrepos: search repos --owner=@me --sort=updated --include-forks=false --json name,description --jq '.[]'
+myforks: search repos --owner=@me --sort=updated --include-forks=only --json name,description,defaultBranch --jq '.[]'
+
+# view
+v: repo view
+
+# alias
+alias compare: alias list
+alias update: alias import --clobber
