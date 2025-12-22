@@ -1,0 +1,19 @@
+# https://arkhamcookie.com
+
+## secrets
+.env*
+!.env.example
+!.env.default
+
+## cache
+.trash
+.DS_Store
+*.bak
+
+## configs
+.vscode
+.idea
+.vim
+
+# Nix files
+flake.lock
