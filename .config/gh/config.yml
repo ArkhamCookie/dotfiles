@@ -13,6 +13,15 @@ pager:
 # Aliases allow you to create nicknames for gh commands
 aliases:
     co: pr checkout
+    alias compare: alias list
+    alias update: alias import --clobber
+    clone: repo clone
+    gist download: api /gists/public
+    myforks: search repos --owner=@me --sort=updated --include-forks=only --json name,description,defaultBranch --jq '.[]'
+    myrepos: search repos --owner=@me --sort=updated --include-forks=false --json name,description --jq '.[]'
+    pv: pr view
+    s: search repos --json fullName,description,language
+    v: repo view
 # The path to a unix socket through which send HTTP connections. If blank, HTTP traffic will be handled by net/http.DefaultTransport.
 http_unix_socket:
 # What web browser gh should use when opening URLs. If blank, will refer to environment.
