@@ -1,8 +1,9 @@
-# For packages that don't really fit anywhere else
+# Programming languages
 { pkgs, ... }:
 
 {
   environment.systemPackages = with pkgs; [
+    go
+    lua
   ];
 }
-
