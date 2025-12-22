@@ -15,5 +15,10 @@
 .idea
 .vim
 
-# Nix files
+## Nix files
 flake.lock
+
+## ~/.config files I don't want
+.mozilla/
+gh/hosts.yml
+pulse/cookie
