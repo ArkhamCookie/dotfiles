@@ -12,5 +12,9 @@
 
 	# Python
 	python314
+
+	# Rust
+	cargo
+	rustc
   ];
 }
