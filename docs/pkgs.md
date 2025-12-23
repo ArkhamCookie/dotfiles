@@ -21,6 +21,8 @@ Editor related programs.
 - nvim
 - VSCodium
 
+## Languages
+
 ### Language Servers
 
 ### Linters
