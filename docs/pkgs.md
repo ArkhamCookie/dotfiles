@@ -23,6 +23,10 @@ Editor related programs.
 
 ## Languages
 
+Programming languages and related programs.
+
+For help, check out the Nix pkg [language and framework section](https://github.com/NixOS/nixpkgs/blob/master/doc/languages-frameworks/).
+
 ### Language Servers
 
 ### Linters
