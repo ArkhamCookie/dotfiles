@@ -14,6 +14,7 @@
     alacritty # Terminal emulator
     cliphist # Wayland clipboard manager
     dunst # Notification-daemon
+    hyprshot # Screenshotting
     wl-clipboard # Wayland clipboard
     wofi # Launcher/menu (for wayland)
   ];
