@@ -9,8 +9,8 @@
     ./fun.nix
     ./git.nix
     ./hyprland.nix
-	./lanuages.nix
     ./misc.nix
+    ./programming.nix
     ./terminal.nix
   ];
 }

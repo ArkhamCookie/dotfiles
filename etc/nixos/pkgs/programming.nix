@@ -1,4 +1,4 @@
-# Programming languages
+# Programming languages and tools
 { pkgs, ... }:
 
 {
