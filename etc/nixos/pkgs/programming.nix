@@ -3,6 +3,9 @@
 
 {
   environment.systemPackages = with pkgs; [
+    # General Tools
+    just
+
 	# Golang
     go
 
