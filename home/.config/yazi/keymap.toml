@@ -1,0 +1,8 @@
+# yazi Keymaps Configuration File
+# https://arkhamcookie.com/dotfiles
+
+[[mgr.prepend_keymap]]
+on = [ "g", "r" ]
+run = 'shell -- ya emit cd "$(git rev-parse --show-toplevel)"'
+desc = "Go to top of git directory"
+
