@@ -1,0 +1,15 @@
+// anyrun Actions Configuration File
+// https://arkhamcookie.com/dotfiles
+
+Config(
+	enable_power_actions: false,
+	custom_actions: [
+		(
+			title: "Toggle Mute",
+			command: "wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle",
+			description: "Toggle mute on default microphone",
+			icon: "microphone",
+			confirm: false,
+		),
+	],
+)
