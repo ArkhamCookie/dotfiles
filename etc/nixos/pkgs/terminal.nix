@@ -21,5 +21,8 @@
     ripgrep # grep
     ripgrep-all # grep (with extra support than ripgrep)
     tealdeer # man
+
+    # TUIs
+    yazi # file manager
   ];
 }
