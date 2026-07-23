@@ -9,10 +9,6 @@
 	# Golang
     go
 
-	# JavaScipt
-	bun
-	deno
-
 	# Lua
     lua
 	luajitPackages.luarocks-nix
