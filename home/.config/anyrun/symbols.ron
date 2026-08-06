@@ -1,0 +1,10 @@
+// anyrun Symbols Configuration File
+// https://arkhamcookie.com/dotfiles
+
+Config(
+	prefix: "",
+	symbols: {
+		"shurg": "¯\\_(ツ)_/¯",
+	},
+	max_entries: 3,
+)

@@ -15,7 +15,7 @@
     cliphist # Wayland clipboard manager
     dunst # Notification-daemon
     wl-clipboard # Wayland clipboard
-    wofi # Launcher/menu (for wayland)
+    anyrun # runner
   ];
 
   programs.hyprland = {

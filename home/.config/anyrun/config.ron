@@ -1,0 +1,14 @@
+// anyrun Main Configuration File
+// https://arkhamcookie.com/dotfiles
+
+Config(
+	ignore_exclusive_zones: true,
+	hide_plugin_info: true,
+	close_on_click: true,
+	plugins: [
+		"libapplications.so",
+		"libshell.so",
+		"libwebsearch.so",
+		"libactions.so",
+	],
+)
