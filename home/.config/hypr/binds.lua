@@ -37,9 +37,10 @@ hl.bind(main_mod .. " + SHIFT + down", hl.dsp.window.move({ direction = "down" }
 
 --- Workspaces
 
-for i = 0, 9 do
-	hl.bind(main_mod .. " + " .. i, hl.dsp.focus({ workspace = i })) -- Switch to i workspace
-	hl.bind(main_mod .. " + SHIFT + " .. i, hl.dsp.window.move({ workspace = i })) -- Move window to i workspace
+for i = 1, 10 do
+	local x = i % 10 -- Makes 10 = 0
+	hl.bind(main_mod .. " + " .. x, hl.dsp.focus({ workspace = i })) -- Switch to i workspace
+	hl.bind(main_mod .. " + SHIFT + " .. x, hl.dsp.window.move({ workspace = i })) -- Move window to i workspace
 end
 
 -- Scoll through open workspaces with mouse main_mod + scroll wheel
