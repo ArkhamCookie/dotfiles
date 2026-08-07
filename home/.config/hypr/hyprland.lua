@@ -8,12 +8,14 @@
 
 require("monitors")
 
+
 --- ENVIRONMENT
 --- https://wiki.hypr.land/Configuring/Advanced-and-Cool/Environment-variables/
 
 hl.env("XDG_CURRENT_DESKTOP", "Hyprland")
 hl.env("XDG_SESSION_TYPE", "wayland")
 hl.env("XDG_SESSION_DESKTOP", "Hyprland")
+
 
 --- AUTOSTART
 --- https://wiki.hypr.land/Configuring/Basics/Autostart/
@@ -29,11 +31,13 @@ hl.on("hyprland.start", function ()
 	hl.exec_cmd("systemctl --user start xdg-desktop-portal-hyprland.service")
 end)
 
+
 --- CURSOR
 --- https://wiki.hypr.land/Configuring/Basics/Variables/#cursor
 
 hl.env("HYPRCURSOR_SIZE", "24")
 hl.env("XCURSOR_SIZE", "24")
+
 
 --- INPUT
 --- https://wiki.hypr.land/Configuring/Basics/Variables/#input
@@ -43,6 +47,7 @@ hl.config({
 		kb_layout = "us",
 	}
 })
+
 
 --- BINDINGS
 --- https://wiki.hypr.land/Configuring/Basics/Binds/
