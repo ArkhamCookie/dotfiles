@@ -17,7 +17,7 @@ hl.bind(main_mod .. " + C", hl.dsp.exec_cmd("cliphist list | wofi -S dmenu | cli
 --- Manage Windows
 
 hl.bind(main_mod .. " + Q", hl.dsp.window.close) -- Close active window
-hl.bind(main_mod .. " + F", hl.dsp.window.kill) -- Force close active window
+hl.bind(main_mod .. " + SHIFT + Q", hl.dsp.window.kill) -- Force close active window
 hl.bind(main_mod .. " + F", hl.dsp.window.fullscreen) -- Toggle fullscreen of active window
 hl.bind(main_mod .. " + V", hl.dsp.window.float) -- Toggle floating on active window
 
@@ -47,8 +47,8 @@ hl.bind(main_mod .. " + mouse_down", hl.dsp.focus({ workspace = "e-1" }))
 hl.bind(main_mod .. " + mouse_up", hl.dsp.focus({ workspace = "e+1" }))
 
 -- Resizing/Moving Windows w/ Mouse
-hl.bind(main_mod .. " + mouse:272", hl.dsp.window.drag(), {mouse = true}) -- Move window around with LMB
-hl.bind(main_mod .. " + mouse:273", hl.dsp.window.resize(), {mouse = true})
+hl.bind(main_mod .. " + mouse:272", hl.dsp.window.drag(), { mouse = true }) -- Move window around with LMB
+hl.bind(main_mod .. " + mouse:273", hl.dsp.window.resize(), { mouse = true })
 
 --- Screenshots
 
