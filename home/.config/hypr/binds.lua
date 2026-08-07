@@ -16,10 +16,10 @@ hl.bind(main_mod .. " + C", hl.dsp.exec_cmd("cliphist list | wofi -S dmenu | cli
 
 --- Manage Windows
 
-hl.bind(main_mod .. " + Q", hl.dsp.window.close) -- Close active window
-hl.bind(main_mod .. " + SHIFT + Q", hl.dsp.window.kill) -- Force close active window
-hl.bind(main_mod .. " + F", hl.dsp.window.fullscreen) -- Toggle fullscreen of active window
-hl.bind(main_mod .. " + V", hl.dsp.window.float) -- Toggle floating on active window
+hl.bind(main_mod .. " + Q", hl.dsp.window.close()) -- Close active window
+hl.bind(main_mod .. " + SHIFT + Q", hl.dsp.window.kill()) -- Force close active window
+hl.bind(main_mod .. " + F", hl.dsp.window.fullscreen()) -- Toggle fullscreen of active window
+hl.bind(main_mod .. " + V", hl.dsp.window.float()) -- Toggle floating on active window
 
 --- Movement
 
