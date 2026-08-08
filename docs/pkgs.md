@@ -91,10 +91,15 @@ For packages related to my desktop enviroment (hyprland).
 - hypridle
 - hyprlock
 - alacritty
+- anyrun
 - cliphist
 - dunst
 - wl-clipboard
 - wofi
+
+### Libraries
+
+- xdg-desktop-portal-gtk
 
 ## Terminal
 
