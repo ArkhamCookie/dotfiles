@@ -16,6 +16,7 @@
     dunst # Notification-daemon
     wl-clipboard # Wayland clipboard
     anyrun # runner
+    wofi # for dmenu scripting
   ];
 
   programs.hyprland = {
