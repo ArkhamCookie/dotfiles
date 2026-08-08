@@ -27,6 +27,26 @@ Programming languages and related programs.
 
 For help, check out the Nix pkg [language and framework section](https://github.com/NixOS/nixpkgs/blob/master/doc/languages-frameworks/).
 
+### Base Language Tools
+
+#### Golang
+
+- go
+
+#### Lua
+
+- lua
+- luarocks
+
+#### Python
+
+- python
+
+#### Rust
+
+- cargo
+- rustc
+
 ### Language Servers
 
 ### Linters
@@ -73,28 +93,6 @@ For packages related to my desktop enviroment (hyprland).
 - dunst
 - wl-clipboard
 - wofi
-
-## Languages
-
-Programming languages.
-
-### Golang
-
-- go
-
-### Lua
-
-- lua
-- luarocks
-
-### Python
-
-- python
-
-### Rust
-
-- cargo
-- rustc
 
 ## Terminal
 
