@@ -58,6 +58,10 @@ For help, check out the Nix pkg [language and framework section](https://github.
 
 - shellcheck
 
+### General Tooling
+
+- just
+
 ## Flatpak
 
 Packages installed through Flatpak.
