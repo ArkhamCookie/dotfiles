@@ -27,17 +27,48 @@ Programming languages and related programs.
 
 For help, check out the Nix pkg [language and framework section](https://github.com/NixOS/nixpkgs/blob/master/doc/languages-frameworks/).
 
+### Language Related Tools
+
+#### Golang
+
+- go
+
+#### JavaScript
+
+- bun
+- deno
+
+#### Lua
+
+- lua
+- luarocks
+
+#### Python
+
+- python
+
+#### Rust
+
+- cargo
+- rustc
+
 ### Language Servers
 
 ### Linters
 
 - shellcheck
 
+### General Tooling
+
+- just
+
 ## Flatpak
 
 Packages installed through Flatpak.
 
 - Discord
+- Flatseal
+- Steam
 
 ## Fonts
 
@@ -69,32 +100,15 @@ For packages related to my desktop enviroment (hyprland).
 - hypridle
 - hyprlock
 - alacritty
+- anyrun
 - cliphist
 - dunst
 - wl-clipboard
 - wofi
 
-## Languages
+### Libraries
 
-Programming languages.
-
-### Golang
-
-- go
-
-### Lua
-
-- lua
-- luarocks
-
-### Python
-
-- python
-
-### Rust
-
-- cargo
-- rustc
+- xdg-desktop-portal-gtk
 
 ## Terminal
 
@@ -121,4 +135,6 @@ Terminal related programs.
 - ripgrep-all
 - tealdeer
 
+### TUIs
 
+- yazi
