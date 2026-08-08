@@ -58,6 +58,8 @@ For help, check out the Nix pkg [language and framework section](https://github.
 Packages installed through Flatpak.
 
 - Discord
+- Flatseal
+- Steam
 
 ## Fonts
 
