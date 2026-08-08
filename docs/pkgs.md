@@ -134,3 +134,7 @@ Terminal related programs.
 - ripgrep
 - ripgrep-all
 - tealdeer
+
+### TUIs
+
+- yazi
