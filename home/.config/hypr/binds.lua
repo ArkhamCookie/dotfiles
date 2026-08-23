@@ -62,76 +62,48 @@ hl.bind(main_mod .. " + SHIFT + PRINT", hl.dsp.exec_cmd("hyprshot -m output")) -
 -- Volume Control
 hl.bind(
 	"XF86AudioLowerVolume",
-	hl.dsp.exec_cmd("wpctl set-volume -l 1 @DEFAULT_AUDIO_SINK@ 5%-",
-	{
-		locked = true,
-		repeated = true,
-	}
-))
+	hl.dsp.exec_cmd("wpctl set-volume -l 1 @DEFAULT_AUDIO_SINK@ 5%-")
+)
 hl.bind(
 	"XF86AudioRaiseVolume",
-	hl.dsp.exec_cmd("wpctl set-volume -l 1 @DEFAULT_AUDIO_SINK@ 5%+",
-	{
-		locked = true,
-		repeated = true,
-	}
-))
+	hl.dsp.exec_cmd("wpctl set-volume -l 1 @DEFAULT_AUDIO_SINK@ 5%+")
+)
 hl.bind(
 	"XF86AudioMute",
-	hl.dsp.exec_cmd("wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
-	{
-		locked = true,
-		repeated = true,
-	}
-))
+	hl.dsp.exec_cmd("wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle")
+)
 
 -- Microphone mute toggle
 hl.bind(
 	"XF86AudioMicMute",
-	hl.dsp.exec_cmd("wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle",
-	{
-		locked = true,
-		repeated = true,
-	}
-))
+	hl.dsp.exec_cmd("wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle")
+)
 
 -- Monitor brightness
 hl.bind(
 	"XF86MonBrightnessUp",
-	hl.dsp.exec_cmd("brightnessctl s 10%-",
-	{
-		locked = true,
-		repeated = true,
-	}
-))
+	hl.dsp.exec_cmd("brightnessctl s 10%-")
+)
 hl.bind(
 	"XF86MonBrightnessUp",
-	hl.dsp.exec_cmd("brightnessctl s 10%+",
-	{
-		locked = true,
-		repeated = true,
-	}
-))
+	hl.dsp.exec_cmd("brightnessctl s 10%+")
+)
 
 -- Media control
 hl.bind(
 	"XF86AudioPrev",
-	hl.dsp.exec_cmd("playerctl previous"),
-	{ locked = true }
+	hl.dsp.exec_cmd("playerctl previous")
 )
 hl.bind(
 	"XF86AudioNext",
-	hl.dsp.exec_cmd("playerctl next"),
-	{ locked = true }
+	hl.dsp.exec_cmd("playerctl next")
 )
 hl.bind(
 	"XF86AudioPlay",
-	hl.dsp.exec_cmd("playerctl play-pause"),
-	{ locked = true }
+	hl.dsp.exec_cmd("playerctl play-pause")
 )hl.bind(
 	"XF86AudioPause",
-	hl.dsp.exec_cmd("playerctl play-pause"),
-	{ locked = true }
+	hl.dsp.exec_cmd("playerctl play-pause")
 )
 
 --- Misc
