@@ -11,6 +11,7 @@
 
     # More core commands
     file
+	wget
 
     # "Upgraded" core commands
     bat # cat
