@@ -125,6 +125,7 @@ Terminal related programs.
 - glow
 - htop
 - jq
+- wget
 - zellij
 
 ### More Core Commands
