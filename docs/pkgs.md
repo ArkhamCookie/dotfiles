@@ -10,6 +10,14 @@
 - DrawIO
 - FireFox
 
+## Flakpak Applications
+
+Applications installed through Flatpak.
+
+- Discord
+- Flatseal
+- Steam
+
 ## Editors
 
 Editor related programs.
@@ -61,14 +69,6 @@ For help, check out the Nix pkg [language and framework section](https://github.
 ### General Tooling
 
 - just
-
-## Flatpak
-
-Packages installed through Flatpak.
-
-- Discord
-- Flatseal
-- Steam
 
 ## Fonts
 
