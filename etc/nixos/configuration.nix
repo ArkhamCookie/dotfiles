@@ -1,6 +1,5 @@
 # Main config file for importing
 # and for things I haven't moved into their own dedicated file.
-
 { config, lib, pkgs, ... }:
 
 {
@@ -8,14 +7,11 @@
     ./hardware-configuration.nix
     ./nix-settings.nix
     ./plymouth.nix
+	./systemd.nix
     ./users.nix
 
     ./pkgs/pkgs.nix
   ];
-
-  # Use the systemd-boot EFI boot loader.
-  boot.loader.systemd-boot.enable = true;
-  boot.loader.efi.canTouchEfiVariables = true;
 
   networking.hostName = "knight"; # Define your hostname.
   # Pick only one of the below networking options.
