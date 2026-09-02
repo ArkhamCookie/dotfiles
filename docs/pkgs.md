@@ -37,14 +37,18 @@ For help, check out the Nix pkg [language and framework section](https://github.
 
 ### Language Related Tools
 
-#### Golang
+#### English/Comments
 
-- go
+- Harper
 
 #### JavaScript
 
 - bun
 - deno
+
+#### Golang
+
+- go
 
 #### Lua
 
@@ -53,7 +57,8 @@ For help, check out the Nix pkg [language and framework section](https://github.
 
 #### Python
 
-- python
+- python (3.14)
+- pip (3.14)
 
 #### Rust
 
@@ -64,11 +69,13 @@ For help, check out the Nix pkg [language and framework section](https://github.
 
 ### Linters
 
-- shellcheck
-
 ### General Tooling
 
 - just
+
+### English/Comments
+
+- shellcheck
 
 ## Fonts
 
