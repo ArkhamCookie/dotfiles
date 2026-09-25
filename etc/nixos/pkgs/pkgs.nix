@@ -11,6 +11,7 @@
     ./hyprland.nix
     ./misc.nix
     ./programming.nix
+    ./system.nix
     ./terminal.nix
   ];
 }
