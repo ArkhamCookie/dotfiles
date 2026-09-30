@@ -6,5 +6,8 @@
     # (de)compression tools
     zip
     unzip
+
+	# nix related tools not included by default
+	nix-index
   ];
 }
