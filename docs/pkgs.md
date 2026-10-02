@@ -9,6 +9,7 @@
 - Dolphin
 - DrawIO
 - FireFox
+- Proton VPN
 
 ## Flakpak Applications
 
@@ -29,22 +30,19 @@ Editor related programs.
 - nvim
 - VSCodium
 
-## Languages
+## Programming
 
 Programming languages and related programs.
 
 For help, check out the Nix pkg [language and framework section](https://github.com/NixOS/nixpkgs/blob/master/doc/languages-frameworks/).
 
-### Language Related Tools
-
-#### English/Comments
-
-- Harper
+### Core Languages & Tooling
 
 #### JavaScript
 
 - bun
 - deno
+- pnpm
 
 #### Golang
 
@@ -65,17 +63,15 @@ For help, check out the Nix pkg [language and framework section](https://github.
 - cargo
 - rustc
 
-### Language Servers
-
 ### Linters
+
+#### English/Comments
+
+- harper
 
 ### General Tooling
 
 - just
-
-### English/Comments
-
-- shellcheck
 
 ## Fonts
 
