@@ -8,10 +8,5 @@
     micro # A simpler but good editor
     neovim # Default editor for terminal
     vscodium # Desktop editor
-
-    # Language servers
-
-    # Linters
-    shellcheck
   ];
 }

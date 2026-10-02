@@ -3,6 +3,9 @@
 
 {
   environment.systemPackages = with pkgs; [
+    # Comments/English
+    harper
+
     # General Tools
     just
 
@@ -24,5 +27,8 @@
 	# Rust
 	cargo
 	rustc
+
+    # Shell
+    shellcheck
   ];
 }
