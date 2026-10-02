@@ -5,7 +5,10 @@
   users.users.arkhamcookie = {
     isNormalUser = true;
     description = "Main user";
-    extraGroups = [ "wheel" ];
+    extraGroups = [
+      "networkmanager"
+      "wheel"
+    ];
     shell = pkgs.bash;
     packages = with pkgs; [ # User only packages
       prismlauncher
