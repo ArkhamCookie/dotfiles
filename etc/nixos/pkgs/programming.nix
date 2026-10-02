@@ -12,6 +12,7 @@
 	# JavaScipt
 	bun
 	deno
+	pnpm
 
 	# Lua
     lua
