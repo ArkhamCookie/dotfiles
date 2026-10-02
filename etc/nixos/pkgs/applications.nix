@@ -8,5 +8,6 @@
     kdePackages.dolphin
     drawio
     firefox
+	proton-vpn
   ];
 }
